@@ -106,12 +106,29 @@ body {
   padding: 2em;
   font-size: 1em;
   height: 100%;
+  color: #D6D6D6;
+}
+
+header {
+    font-size: 2em;
+    margin: 2% 0 2% 0;
+    
+}
+
+main {
+    font-size: 1.5em;
+    margin: 2% 0 2% 0;
+    border-bottom: .125em solid;
+    border-color: #D6D6D6;
+    padding: 0 0 2.5% 0;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
+  max-width: 1200px;
 }
 
 .div-1, .div-2, .div-3 {
@@ -124,7 +141,6 @@ body {
   line-height: 1.5em;
   font-size: 1em;
   background-color: #213928;
-  height: 300px;
 }
 
 .div-2 {
@@ -132,6 +148,17 @@ body {
     border-right: .125em solid;
     border-color: #D6D6D6;
     padding: 0 2.5% 0 2.5%;
+}
+
+footer {
+    font-size: 1em;
+    width: 100%;
+    border-top: .125em solid;
+    border-color: #D6D6D6;
+    padding: 2.5% 0 0 0;
+    margin-top: 2.5%;
+}
+
 }
 
 
